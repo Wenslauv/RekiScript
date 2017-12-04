@@ -1,0 +1,4 @@
+predefine = None
+legal_sets = []
+banned_cards = []
+decklists_path = []
