@@ -1,0 +1,19 @@
+{
+    "standards": [
+        {
+            "name": "1st standard",
+            "sets": [ "4ed", "chr", "fem", "hml", "ice", "all"],
+            "banned": []
+        },
+        {
+            "name": "2nd standard",
+            "sets": [ "5ed", "fem", "ice", "all", "hml", "mir", "vis", "wth" ],
+            "banned": []
+        },
+        {
+            "name": "3rd standard",
+            "sets": [ "5ed", "mir", "wth", "vis", "tmp", "sth", "exo" ],
+            "banned": []
+        }
+    ]
+}
