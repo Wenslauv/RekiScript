@@ -19,6 +19,6 @@
         "dis", "gpt", "rav",
         "sok", "bok", "chk",
         "5dn", "dst", "mrd",
-        "8ed", "9ed", "10e", "m10", "m11", "m12", "m13", "m15", "ori"],
+        "8ed", "9ed", "10e", "m10", "m11", "m12", "m13", "m14", "m15", "ori"],
     "banned_cards": ["Skullclamp", "Arcbound Ravager", "Disciple of the Vault", "Darksteel Citadel", "Ancient Den", "Great Furnace", "Seat of the Synod", "Tree of Tales", "Vault of Whispers", "Jace, the Mind Sculptor", "Stoneforge Mystic", "Emrakul, the Promised End", "Smuggler's Copter", "Reflector Mage", "Felidar Guardian", "Aetherworks Marvel"]
 }
