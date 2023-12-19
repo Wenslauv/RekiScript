@@ -2,18 +2,517 @@
     "standards": [
         {
             "name": "1st standard",
-            "sets": [ "4ed", "chr", "fem", "hml", "ice", "all"],
+            "sets": [
+                "4ed",
+                "chr",
+                "fem",
+                "hml",
+                "ice",
+                "all"
+            ],
             "banned": []
         },
         {
             "name": "2nd standard",
-            "sets": [ "5ed", "fem", "ice", "all", "hml", "mir", "vis", "wth" ],
+            "sets": [
+                "5ed",
+                "fem",
+                "ice",
+                "all",
+                "hml",
+                "mir",
+                "vis",
+                "wth"
+            ],
             "banned": []
         },
         {
             "name": "3rd standard",
-            "sets": [ "5ed", "mir", "wth", "vis", "tmp", "sth", "exo" ],
+            "sets": [
+                "5ed",
+                "mir",
+                "wth",
+                "vis",
+                "tmp",
+                "sth",
+                "exo"
+            ],
             "banned": []
+        },
+        {
+            "name": "4th standard",
+            "sets": [
+                "6ed",
+                "tmp",
+                "sth",
+                "exo",
+                "usg",
+                "ulg",
+                "uds"
+            ],
+            "banned": [
+                "memory jar",
+                "tolarian academy",
+                "yawgmoth's bargain"
+            ]
+        },
+        {
+            "name": "5th standard",
+            "sets": [
+                "6ed",
+                "usg",
+                "ulg",
+                "uds",
+                "mmq",
+                "nem",
+                "pcy"
+            ],
+            "banned": [
+                "memory jar",
+                "tolarian academy",
+                "yawgmoth's bargain"
+            ]
+        },
+        {
+            "name": "6th standard",
+            "sets": [
+                "7ed",
+                "usg",
+                "ulg",
+                "uds",
+                "mmq",
+                "nem",
+                "pcy"
+            ],
+            "banned": [
+                "memory jar",
+                "tolarian academy",
+                "yawgmoth's bargain"
+            ]
+        },
+        {
+            "name": "7th standard",
+            "sets": [
+                "7ed",
+                "mmq",
+                "nem",
+                "pcy",
+                "inv",
+                "apc",
+                "pls"
+            ],
+            "banned": []
+        },
+        {
+            "name": "8th standard",
+            "sets": [
+                "7ed",
+                "inv",
+                "apc",
+                "pls",
+                "ody",
+                "tor",
+                "jud"
+            ],
+            "banned": []
+        },
+        {
+            "name": "9th standard",
+            "sets": [
+                "8ed",
+                "ody",
+                "tor",
+                "jud",
+                "ons",
+                "lgn",
+                "scg"
+            ],
+            "banned": []
+        },
+        {
+            "name": "10th standard",
+            "sets": [
+                "8ed",
+                "ons",
+                "lgn",
+                "scg",
+                "mrd",
+                "dst",
+                "5dn"
+            ],
+            "banned": [
+                "skullclamp"
+            ]
+        },
+        {
+            "name": "11th standard",
+            "sets": [
+                "8ed",
+                "mrd",
+                "dst",
+                "5dn",
+                "chk",
+                "bok",
+                "sok"
+            ],
+            "banned": [
+                "skullclamp"
+            ]
+        },
+        {
+            "name": "12th standard",
+            "sets": [
+                "9ed",
+                "mrd",
+                "dst",
+                "5dn",
+                "chk",
+                "bok",
+                "sok"
+            ],
+            "banned": [
+                "skullclamp"
+            ]
+        },
+        {
+            "name": "13th standard",
+            "sets": [
+                "9ed",
+                "chk",
+                "bok",
+                "sok",
+                "rav",
+                "gpt",
+                "dis",
+                "csp"
+            ],
+            "banned": []
+        },
+        {
+            "name": "14th standard",
+            "sets": [
+                "9ed",
+                "rav",
+                "gpt",
+                "dis",
+                "csp",
+                "tsp",
+                "plc",
+                "fut"
+            ],
+            "banned": []
+        },
+        {
+            "name": "15th standard",
+            "sets": [
+                "10e",
+                "rav",
+                "gpt",
+                "dis",
+                "csp",
+                "tsp",
+                "plc",
+                "fut"
+            ],
+            "banned": []
+        },
+        {
+            "name": "16th standard",
+            "sets": [
+                "10e",
+                "csp",
+                "tsp",
+                "plc",
+                "fut",
+                "lrw",
+                "mor",
+                "shm",
+                "eve"
+            ],
+            "banned": []
+        },
+        {
+            "name": "17th standard",
+            "sets": [
+                "10e",
+                "lrw",
+                "mor",
+                "shm",
+                "eve",
+                "ala",
+                "con",
+                "arb"
+            ],
+            "banned": []
+        },
+        {
+            "name": "18th standard",
+            "sets": [
+                "m10",
+                "lrw",
+                "mor",
+                "shm",
+                "eve",
+                "ala",
+                "con",
+                "arb"
+            ],
+            "banned": []
+        },
+        {
+            "name": "19th standard",
+            "sets": [
+                "m10",
+                "ala",
+                "con",
+                "arb",
+                "zen",
+                "wwk",
+                "roe",
+                "m11"
+            ],
+            "banned": []
+        },
+        {
+            "name": "20th standard",
+            "sets": [
+                "m11",
+                "zen",
+                "wwk",
+                "roe",
+                "som",
+                "mbs",
+                "nph"
+            ],
+            "banned": [
+                "stoneforge mystic",
+                "batterskull"
+            ]
+        },
+        {
+            "name": "21th standard",
+            "sets": [
+                "m12",
+                "som",
+                "mbs",
+                "nph",
+                "isd",
+                "dka",
+                "avr",
+                "m13"
+            ],
+            "banned": []
+        },
+        {
+            "name": "22th standard",
+            "sets": [
+                "m13",
+                "isd",
+                "dka",
+                "avr",
+                "rtr",
+                "gtc",
+                "dgm",
+                "m14"
+            ],
+            "banned": []
+        },
+        {
+            "name": "23th standard",
+            "sets": [
+                "m14",
+                "rtr",
+                "gtc",
+                "dgm",
+                "ths",
+                "bng",
+                "jou",
+                "m15"
+            ],
+            "banned": []
+        },
+        {
+            "name": "24th standard",
+            "sets": [
+                "m15",
+                "ths",
+                "bng",
+                "jou",
+                "ktk",
+                "frf",
+                "dtk",
+                "ori"
+            ],
+            "banned": []
+        },
+        {
+            "name": "25th standard",
+            "sets": [
+                "ktk",
+                "frf",
+                "dtk",
+                "ori",
+                "bfz",
+                "ogw"
+            ],
+            "banned": []
+        },
+        {
+            "name": "26th standard",
+            "sets": [
+                "dtk",
+                "ori",
+                "bfz",
+                "ogw",
+                "soi",
+                "emn"
+            ],
+            "banned": []
+        },
+        {
+            "name": "27th standard",
+            "sets": [
+                "bfz",
+                "ogw",
+                "soi",
+                "emn",
+                "kld",
+                "aer",
+                "akh",
+                "hou"
+            ],
+            "banned": [
+                "aetherworks marvel",
+                "felidar guardian",
+                "emrakul, the promised end",
+                "smuggler's copter",
+                "reflector mage"
+            ]
+        },
+        {
+            "name": "28th standard",
+            "sets": [
+                "kld",
+                "aer",
+                "akh",
+                "hou",
+                "xln",
+                "rix",
+                "dom",
+                "m19"
+            ],
+            "banned": [
+                "aetherworks marvel",
+                "felidar guardian",
+                "smuggler's copter",
+                "attune with aether",
+                "rogue refiner",
+                "rampaging ferocidon",
+                "ramunap ruins"
+            ]
+        },
+        {
+            "name": "29th standard",
+            "sets": [
+                "xln",
+                "rix",
+                "dom",
+                "m19",
+                "grn",
+                "rna",
+                "war",
+                "m20"
+            ],
+            "banned": []
+        },
+        {
+            "name": "30th standard",
+            "sets": [
+                "grn",
+                "rna",
+                "war",
+                "m20",
+                "eld",
+                "thb",
+                "iko",
+                "m21"
+            ],
+            "banned": [
+                "field of the dead",
+                "oko, thief of crowns",
+                "once upon a time",
+                "veil of summer",
+                "agent of treachery",
+                "fires of invention",
+                "wilderness reclamation",
+                "growth spiral",
+                "teferi, time reveler",
+                "cauldron familiar"
+            ]
+        },
+        {
+            "name": "31th standard",
+            "sets": [
+                "eld",
+                "thb",
+                "iko",
+                "m21",
+                "znr",
+                "khm",
+                "stx",
+                "afr"
+            ],
+            "banned": [
+                "oko, thief of crowns",
+                "once upon a time",
+                "fires of invention",
+                "cauldron familiar",
+                "uro, titan of nature's wrath",
+                "omnath, locus of creation",
+                "lucky clover",
+                "escape to the wilds"
+            ]
+        },
+        {
+            "name": "32th standard",
+            "sets": [
+                "znr",
+                "khm",
+                "stx",
+                "afr",
+                "mid",
+                "vow",
+                "neo",
+                "snc"
+            ],
+            "banned": [
+                "omnath, locus of creation",
+                "alrund's epiphany",
+                "divide by zero",
+                "faceless haven"
+            ]
+        },
+        {
+            "name": "33th standard",
+            "sets": [
+                "mid",
+                "vow",
+                "neo",
+                "snc",
+                "dmu",
+                "bro",
+                "one",
+                "mom",
+                "mat",
+                "woe",
+                "lci"
+            ],
+            "banned": [
+                "meathook massacre",
+                "fable of the mirror-breaker // reflection of kiki-jiki",
+                "invoke despair",
+                "reckoner bankbuster"
+            ]
         }
     ]
 }

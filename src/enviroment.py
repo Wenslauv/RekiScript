@@ -24,6 +24,30 @@ class Standard:
             self.banned = json["banned"]
 
 
+class CardNotes:
+    basics      : list  =   []
+    unlimited   : list  =   []
+    limited     : dict  =   {}
+
+    SOURCE_PATH : str   = "data/notes.json"
+
+
+    def load(self) -> None:
+        self.basics     = []
+        self.unlimited  = []
+        self.limited    = {}
+
+        if os.path.exists(CardNotes.SOURCE_PATH):
+            print("Read card notes from ", os.path.abspath(CardNotes.SOURCE_PATH))
+
+            data = json.load(open(CardNotes.SOURCE_PATH))
+            self.basics     = data.get("basic lands", [])
+            self.unlimited  = data.get("unlimited cards", [])
+            self.limited    = data.get("limited cards", {})
+        else:
+            print("no 'card notes' file")
+
+
 
 
 class Enviroment:
@@ -34,7 +58,7 @@ class Enviroment:
 
     def load(self) -> None:
         self.standards = []
-        if (os.path.exists(Enviroment.SOURCE_PATH)):
+        if os.path.exists(Enviroment.SOURCE_PATH):
             print("Read list of available standards from", 
                   os.path.abspath(Enviroment.SOURCE_PATH))
             
@@ -45,5 +69,5 @@ class Enviroment:
                 print("track '{}'".format(standard.name))
                 self.standards.append( standard )    
         else:
-            print("no such file")
+            print("no 'standards' file")
 

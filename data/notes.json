@@ -1,0 +1,21 @@
+{
+    "basic lands": [
+        "plains",
+        "island",
+        "swamp",
+        "mountain",
+        "forest",
+        "wastes"
+    ],
+    "unlimited cards": [
+        "relentless rats",
+        "dragon's approach",
+        "persistent petitioners",
+        "rat colony",
+        "shadowborn apostle"
+    ],
+    "limited cards": {
+        "seven dwarves": 7,
+        "nazgûl": 9
+    }
+}
